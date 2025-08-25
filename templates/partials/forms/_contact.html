@@ -1,0 +1,21 @@
+<form id="contactForm" class="vstack gap-3 reveal" data-anim="fade-up" data-delay="100" novalidate>
+  <div class="form-floating">
+    <input type="text" class="form-control" id="name" placeholder="Your name" required />
+    <label for="name">Your name</label>
+  </div>
+  <div class="form-floating">
+    <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+    <label for="email">Email</label>
+  </div>
+  <div class="form-floating">
+    <input type="tel" class="form-control" id="phone" placeholder="+91..." required />
+    <label for="phone">Phone</label>
+  </div>
+  <div class="form-floating">
+    <textarea class="form-control" id="message" placeholder="Hi" style="height: 140px" required></textarea>
+    <label for="message">Message</label>
+  </div>
+  <!-- Smaller button -->
+  <button class="btn btn-primary btn-sm align-self-start" type="submit"><i class="bi bi-send me-1"></i> Send Message</button>
+  <small id="formStatus" class="text-success d-none">Message prepared. Your email client should open.</small>
+</form>

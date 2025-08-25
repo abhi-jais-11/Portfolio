@@ -1,0 +1,20 @@
+<!-- CONTACT SECTION -->
+<section class="container py-5">
+  <div class="row g-4 align-items-stretch">
+    <!-- LEFT: Contact Form -->
+    <div class="col-lg-6 d-flex">
+      <div class="card card-blur p-4 w-100">
+        <h2 class="fw-bold mb-3 reveal" data-anim="fade-up">Get in touch</h2>
+        <p class="text-secondary reveal" data-anim="fade-up" data-delay="50">Fill the form and I’ll get back to you.</p>
+        {% include 'partials/forms/_contact.html' %}
+      </div>
+    </div>
+
+    <!-- RIGHT: Link Cards -->
+    <div class="col-lg-6 d-flex">
+      <div class="card card-blur p-4 w-100 vstack gap-3 reveal" data-anim="zoom-in">
+        {% include 'partials/cards/_contact.html' %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+<!-- Feedback Carousel (place after Services, before footer) -->
+<section class="container py-5" id="feedback">
+  <!-- header row -->
+  <div class="container position-relative">
+    <div id="fb-progress">
+      <div class="bar"></div>
+    </div>
+
+    <div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
+      <div>
+        <span class="chip">Testimonials</span>
+        <h2 class="fw-bold mt-2 mb-1 reveal" data-anim="fade-up">What clients say</h2>
+        <p class="text-secondary mb-0 reveal" data-anim="fade-up" data-delay="50">Real feedback from recent projects.</p>
+      </div>
+      <div class="d-flex gap-2 align-items-center reveal" data-anim="fade-left">
+        <a href="contact.html" class="btn btn-outline-light btn-sm"><i class="bi bi-chat-dots me-1"></i> Share Feedback</a>
+        <!-- custom nav -->
+        <div class="d-none d-sm-flex align-items-center gap-2 ms-2">
+          <button class="ctrl d-inline-flex align-items-center justify-content-center" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="prev" aria-label="Prev"><i class="bi bi-chevron-left"></i></button>
+          <button class="ctrl d-inline-flex align-items-center justify-content-center" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="next" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- carousel -->
+  <div class="container">
+    <div id="feedbackCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5500" data-bs-touch="true" data-bs-keyboard="true">
+      <div class="carousel-inner">
+       {% include 'partials/cards/_feedback.html' %}
+
+
+      </div>
+
+      <!-- Mobile controls -->
+      <div class="d-sm-none d-flex justify-content-center gap-2 mt-3">
+        <button class="ctrl d-inline-flex align-items-center justify-content-center" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="prev" aria-label="Prev"><i class="bi bi-chevron-left"></i></button>
+        <button class="ctrl d-inline-flex align-items-center justify-content-center" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="next" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+      </div>
+
+      <!-- Dots -->
+      <div class="carousel-indicators mt-4 position-static">
+        <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+    </div>
+  </div>
+</section>
