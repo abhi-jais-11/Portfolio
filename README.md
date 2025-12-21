@@ -42,5 +42,11 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ---
 
-## 📂 Project Structure
+## 📬 Contact Me
+
+- **Email:** [abhijais0110@gmail.com](mailto:abhijais0110@gmail.com)
+- **Phone:** +91 8957 889130
+- **GitHub:** [abhi-jais-11](https://github.com/abhi-jais-11)
+- **LinkedIn:** [Abhinav Jaiswal](https://www.linkedin.com/in/jais-abhi/)
+- **Location:** Basti, Uttar Pradesh, India
 
