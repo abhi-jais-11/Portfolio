@@ -3,7 +3,7 @@
 A modern, responsive personal portfolio website showcasing my skills, projects, services, and contact details. This portfolio is designed to highlight my work as a **Full Stack Developer** with a strong focus on clean UI, smooth animations, and user experience.
 
 🔗 **Live Demo:**  
-👉 https://abhinav-jaiswal.netlify.app/
+👉 https://grand-gnome-80a2eb.netlify.app/
 
 ---
 
