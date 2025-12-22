@@ -377,7 +377,7 @@ body {
     overflow: hidden;
     cursor: pointer;
 }
-.profile_image:hover{
+/* .profile_image:hover{
     transform: scale(1.02);
     transition: all .5s ease-in;
     -webkit-transform: scale(1.02);
@@ -388,7 +388,7 @@ body {
     -moz-transition: all .5s ease-in;
     -ms-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
-}
+} */
 
 /* 
     -----------------------------------------
